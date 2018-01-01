@@ -145,9 +145,9 @@ public class DoctorActivity extends AppCompatActivity {
                 case 0:
                     return "Upcoming";
                 case 1:
-                    return "Past";
+                    return "Invoice";
                 case 2:
-                    return "Payments";
+                    return "Past";
             }
             return null;
         }

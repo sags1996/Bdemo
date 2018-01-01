@@ -26,7 +26,7 @@ public class EmpLogin extends AppCompatActivity {
                     startActivity(in);
                 }
                 else{
-                    Toast.makeText(EmpLogin.this,"Enter Your staff Number Please",Toast.LENGTH_LONG).show();
+                    Toast.makeText(EmpLogin.this,"Enter Your Staff Number Please",Toast.LENGTH_LONG).show();
                 }
             }
         });
