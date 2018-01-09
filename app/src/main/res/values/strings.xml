@@ -9,16 +9,67 @@
     <string name="title_activity_doctor">DoctorActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string-array name="state">
-        <item>Delhi</item>
-        <item>Kerala</item>
+       <item >ANDAMAN AND NICOBAR ISLANDS </item>
+        <item >ANDHRA PRADESH </item>
+       <item >ARUNACHAL PRADESH</item>
+       <item >ASSAM </item>
+        <item>BIHAR </item>
+        <item>CHANDIGARH </item>
+        <item>CHATTISGARH </item>
+        <item>DADAR AND NAGAR HAVELI </item>
+       <item> DAMAN AND DIU </item>
+        <item>DELHI </item>
+       <item> GOA </item>
+       <item> GUJARAT </item>
+        <item>HARYANA </item>
+       <item> HIMACHAL PRADESH </item>
+       <item> JAMMU AND KASHMIR </item>
+       <item> JHARKHAND </item>
+      <item>  KARNATAK </item>
+       <item> KERALA </item>
+       <item> LAKSHADWEEP </item>
+       <item> MADHYA PRADESH </item>
+       <item> MAHARASHTRA </item>
+       <item> MANIPUR </item>
+      <item>  MEGHALAYA </item>
+       <item> MIZORAM </item>
+       <item> NAGALAND </item>
+       <item> ODISHA </item>
+       <item> PUDUCHERRY </item>
+       <item> PUNJAB </item>
+        <item>RAJASTHAN </item>
+        <item>SIKKIM </item>
+       <item> TAMIL NADU </item>
+        <item>TELANGANA </item>
+       <item> TRIPURA  </item>
+        <item> UTTAR PRADESH </item>
+
     </string-array>
     <string-array name="name">
         <item>B</item>
         <item>K</item>
     </string-array>
     <string-array name="specialisation">
-        <item>Dentist</item>
-        <item>ENT</item>
+        <item> ANESTHESIOLOGIST </item>
+        <item>CARDIAC SURGEON </item>
+        <item> DENTIST </item>
+        <item>DERMATOLOGIST </item>
+        <item>DIEBETOLOGIST</item>
+        <item>GATROENTROLOGIST</item>
+        <item>GENERAL PHYSICIAN</item>
+        <item>GENERAL SURGEON</item>
+        <item>NEPHROLOGIST</item>
+        <item>NEURO SURGEON</item>
+        <item>NEUROLOGIST</item>
+        <item>OBSTECTRICS AND GYNAECOLOGIST</item>
+        <item>ONCOLOGIST</item>
+        <item>OPTHALMOLOGIST</item>
+        <item>ORTHOPEDIC SURGEON</item>
+        <item>PEDIATRICIAN</item>
+        <item>PHYCIATRIST</item>
+        <item> RADIOLOGIST</item>
+        <item>UROLOGIST</item>
+
     </string-array>
 
 </resources>
