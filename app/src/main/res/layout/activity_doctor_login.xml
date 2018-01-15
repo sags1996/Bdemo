@@ -33,6 +33,7 @@ android:hint="Mobile No"
     android:textColorHint="@color/white"
     android:textColor="@color/white"
     android:textAppearance="@style/MySerifBold"
+
 />
 
 <EditText
@@ -44,9 +45,10 @@ android:hint="Password"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
     android:textColorHint="@color/white"
-    android:textColor="@color/white"
+    android:textColor="@color/navy"
     android:inputType="textPassword"
-    android:textAppearance="@style/MySerifBold"/>
+    android:textAppearance="@style/MySerifBold"
+    />
 
 
 <Button

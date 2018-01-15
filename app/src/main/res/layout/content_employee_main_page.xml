@@ -9,35 +9,62 @@
     tools:context="com.example.admin.bdemo.EmployeeMainPage"
     tools:showIn="@layout/app_bar_employee_main_page">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="State"
-        android:textColor="@color/black"/>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Search by State"
+            android:textAppearance="@style/MySerifBold"
+            android:textColor="@color/black" />
+    </LinearLayout>
 
     <Spinner
         android:id="@+id/State"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_width="278dp"
+        android:layout_height="63dp"
         android:layout_margin="30dp"
         android:layout_marginLeft="8dp"
-
         android:entries="@array/state">
 
     </Spinner>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="Specialization"
-        android:textColor="@color/black"/>
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Search by Specialization"
+            android:textAppearance="@style/MySerifBold"
+            android:textColor="@color/black" />
+    </LinearLayout>
 
     <Spinner
         android:id="@+id/Speciality"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_width="285dp"
+        android:layout_height="64dp"
         android:layout_margin="30dp"
         android:entries="@array/specialisation">
 
@@ -47,8 +74,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@color/black"
         android:text="Search"
         android:layout_gravity="center"
