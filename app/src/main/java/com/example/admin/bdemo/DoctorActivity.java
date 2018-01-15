@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DoctorActivity extends AppCompatActivity {
@@ -112,6 +113,12 @@ public class DoctorActivity extends AppCompatActivity {
             View rootView = inflater.inflate(R.layout.fragment_doctor, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            ImageView imageView=(ImageView)rootView.findViewById(R.id.image);
+            if(getArguments().getInt(ARG_SECTION_NUMBER)==1)
+                imageView.setBackgroundResource(R.mipmap.one);
+            else if(getArguments().getInt(ARG_SECTION_NUMBER)==2)
+                imageView.setBackgroundResource(R.mipmap.three);
+            else imageView.setBackgroundResource(R.mipmap.two);
             return rootView;
         }
     }
