@@ -23,6 +23,7 @@ public class EmployeeMainPage extends AppCompatActivity
         setContentView(R.layout.activity_employee_main_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        setTitle("Employee");
 
 
 

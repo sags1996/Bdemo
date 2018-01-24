@@ -5,13 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.admin.bdemo.EmployeeMainPage"
     tools:showIn="@layout/app_bar_employee_main_page">
 
     <SearchView
         android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:layout_height="60dp"
+        android:queryHint="Search by Name"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,6 +24,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="70dp"
+            android:src="@mipmap/four"
              />
 
         <TextView
@@ -50,6 +54,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="70dp"
+            android:src="@mipmap/four"
             />
 
         <TextView
