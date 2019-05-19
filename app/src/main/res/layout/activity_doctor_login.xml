@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.admin.bdemo.DoctorLogin"
-    android:background="@drawable/wall">
+    android:background="@mipmap/doc5">
 
 
 <TextView android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
     android:layout_gravity="center"
     android:layout_marginTop="30dp"
     android:textSize="20dp"
-    android:textColor="@color/white"
+    android:textColor="@color/black"
     android:textAppearance="@style/MySerifBold"
     xmlns:android="http://schemas.android.com/apk/res/android" />
 
@@ -30,8 +30,8 @@ android:id="@+id/DoctorMobile"
 android:hint="Mobile No"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
-    android:textColorHint="@color/white"
-    android:textColor="@color/white"
+    android:textColorHint="@color/black"
+    android:textColor="@color/black"
     android:textAppearance="@style/MySerifBold"
 
 />
@@ -44,8 +44,8 @@ android:id="@+id/DocPass"
 android:hint="Password"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
-    android:textColorHint="@color/white"
-    android:textColor="@color/navy"
+    android:textColorHint="@color/black"
+    android:textColor="@color/black"
     android:inputType="textPassword"
     android:textAppearance="@style/MySerifBold"
     />
@@ -53,18 +53,18 @@ android:hint="Password"
 
 <Button
 android:id="@+id/login"
-android:layout_width="wrap_content"
-android:layout_height="0dp"
-    android:layout_weight="1"
-android:layout_marginTop="10dp"
+android:layout_width="109dp"
+android:layout_height="35dp"
+    android:layout_marginTop="20dp"
   android:textSize="20dp"
-    android:background="#80000000"
-android:text="LOGIN"
-
+    android:background="@drawable/mybutton"
+android:text="Login"
+    android:layout_gravity="center"
     android:textAppearance="@style/MySerifBold"
-android:textColor="@color/white"
-android:layout_marginLeft="150dp"
+    android:textAllCaps="false"
+android:textColor="@color/black"
     android:layout_marginBottom="40dp"
+    android:layout_weight="0.09"
     />
 
     </LinearLayout>
